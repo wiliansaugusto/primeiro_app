@@ -13,7 +13,8 @@ export class HomePage {
   }
 
 criarFormulario(){
-	this.navCtrl.push(FeedPage);
+  this.navCtrl.push(FeedPage);
+  alert("Efetuado")
 }
 
 }
